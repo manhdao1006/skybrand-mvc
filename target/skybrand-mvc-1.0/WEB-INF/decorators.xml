@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+	<!-- apply web template -->
+	<decorator name="trang-chu" page="web/web_home.jsp">
+		<pattern>/trang-chu</pattern>
+	</decorator>
+	
+	<decorator name="skyshop" page="web/web_skyshop.jsp">
+		<pattern>/skyshop*</pattern>
+	</decorator>
+	
+	<decorator name="skyradio" page="web/web_skyradio.jsp">
+		<pattern>/skyradio*</pattern>
+	</decorator>
+	
+	<decorator name="admin" page="admin/admin.jsp">
+		<pattern>/quan-tri*</pattern>
+	</decorator>
+	
+	<decorator name="login" page="web/login.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+
+</decorators>
